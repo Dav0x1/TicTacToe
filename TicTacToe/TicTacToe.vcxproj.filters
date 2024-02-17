@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Buttons">
+      <UniqueIdentifier>{f02bd8cd-9577-4161-bcb2-3b7ab015b246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{4ae9eaa4-9018-48f6-8982-7adbae44ae4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fields">
+      <UniqueIdentifier>{ede413df-fe15-4d5b-b025-77bb8d113896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents">
+      <UniqueIdentifier>{7c8a1596-996c-4807-9e18-88306de32023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BotLogics">
+      <UniqueIdentifier>{fe45377b-e293-4cfb-964e-598eeb853ef5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="RectButton.cpp">
+      <Filter>Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="DisappearingText.cpp">
+      <Filter>Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="SwipeField.cpp">
+      <Filter>Fields</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="BotLogic.cpp">
+      <Filter>BotLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="BotLogicEasy.cpp">
+      <Filter>BotLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="BotLogicHard.cpp">
+      <Filter>BotLogics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RectButton.h">
+      <Filter>Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="DisappearingText.h">
+      <Filter>Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="SwipeField.h">
+      <Filter>Fields</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="BotLogic.h">
+      <Filter>BotLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="BotLogicEasy.h">
+      <Filter>BotLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="BotLogicHard.h">
+      <Filter>BotLogics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
